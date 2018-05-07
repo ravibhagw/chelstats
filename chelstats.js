@@ -10,7 +10,7 @@ var platformSelector = {
 
 
 function getClubId(clubName, platform) {
-    https.get(url, function(error,response,body) {
+    https.get(baseUrl+'/xboxone/clubsComplete/'+clubName, function(error,response,body) {
         if(error) {
                 console.log(error);
         } else {

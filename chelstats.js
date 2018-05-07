@@ -10,12 +10,7 @@ var platformSelector = {
 
 
 function getClubId(clubName, platform) {
-    getasync(baseUrl+'/xboxone/clubsComplete/'+clubName, platform);
-}
-
-
-function getasync(url) {
-    return https.get(url, function(error,response,body) {
+    https.get(url, function(error,response,body) {
         if(error) {
                 console.log(error);
         } else {
@@ -23,6 +18,8 @@ function getasync(url) {
         }
     });
 }
+
+
 
 
 console.log(getClubId('megaforce','xboxone'));

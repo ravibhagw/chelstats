@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 
-app.get('/api/test', function(req, res){
-    res.json({test:'successful!'});
-});
+var clubsController = require('./controllers/ClubController');
 
-app.listen(3000);
+app.use('/clubs', clubsController);
+
+module.exports = app;

@@ -2,7 +2,7 @@
   "name": "chelstats",
   "version": "0.1.0",
   "description": "Wrapper for EA NHL Pro Clubs API to retrieve EASHL stats",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": ""
   },

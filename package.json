@@ -1,0 +1,28 @@
+{
+  "name": "chelstats",
+  "version": "0.1.0",
+  "description": "Wrapper for EA NHL Pro Clubs API to retrieve EASHL stats",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravibhagw/chelstats.git"
+  },
+  "keywords": [
+    "eashl",
+    "gaming",
+    "javascript",
+    "node.js"
+  ],
+  "author": "Ravindra Bhagwandin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravibhagw/chelstats/issues"
+  },
+  "homepage": "https://github.com/ravibhagw/chelstats#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
